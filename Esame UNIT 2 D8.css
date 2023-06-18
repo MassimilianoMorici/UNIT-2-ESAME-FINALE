@@ -1,0 +1,125 @@
+
+/* Esame UNIT2 D8 Morici Massimiliano */
+
+
+img { 
+   padding-right: 50px;
+}
+
+body {
+    margin: 0;
+    font-family: "Arial";
+}
+  
+header {
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    background: rgb(87,9,142);
+    background: linear-gradient(97deg, rgba(87,9,142,1) 0%, rgba(230,0,117,1) 100%);
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+    position: fixed;
+    top: 0
+}
+
+h1 {
+    font-family: "Arial";
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 50px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 2px 3px 4px;
+    padding-right: 40px; 
+    
+}
+
+#campoRicercaTitolo {
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 5px; 
+}
+
+#campoRicercaPosizione {
+    font-size: 18px;
+    padding: 10px;
+    padding-right: 30px;
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+button {
+    color: #747474;
+    font-size: 18px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+button:hover {
+    box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+}
+button:active {
+    box-shadow: rgb(255, 255, 255) 0px 0px 5px;
+}
+
+#numeroRisultati {
+    font-family: "Arial";
+    font-weight: bold;
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 20px;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(0, 0, 0) 2px 3px 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin-left: 30px;
+    margin-top: 450px;
+}
+
+li {
+    margin-top: 15px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid rgba(128, 128, 128, 0.356);
+    font-family: "Arial";
+    text-transform: capitalize;
+    font-variant: small-caps;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#titolo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    padding-top: 30px;  
+}
+
+
+/* In quanto l'esame è separato in D7 e D8 ho ritenuto più corretto creare 2 compiti da consegnare, il D7 che come richiesto si limitasse a creare l'algoritmo e verificarlo in console log modificando
+il valore di 2 variabili e il D8 che consiste di creare un pagina dove applicare l'algoritmo precedentemente creato tramite degli input di testo. Grazie e buon lavoro. Morici Massimiliano */
